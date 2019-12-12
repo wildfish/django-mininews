@@ -1,0 +1,65 @@
+=========
+Changelog
+=========
+
+Fork releases
+=============
+
+0.6.2 (2019-12-12)
+------------------
+
+- Fixed setup.py so the project can be installed
+
+
+
+Official releases
+=================
+
+0.6.1 (2015-05-11)
+------------------
+
+- Improved setup file.
+
+
+0.6 (2015-05-10)
+----------------
+
+- Dropped Django 1.4/1.6 and added support for Django 1.8.
+
+
+0.5 (2015-04-21)
+----------------
+
+- Play nice with other mixins' clean() methods.
+- Improved documentation.
+- Fixed some deprecation warnings.
+- Upgraded versions of various third party packages.
+
+0.4 (2014-10-15)
+----------------
+
+- Better handling of when we have more statuses than just 'draft' and 'published'.
+- Removed pagination: it's not Mininews' job to control this.
+- Do not set 'allow_empty': leave that to the end-user project.
+- Do not set 'make_object_list': leave that to the end-user project.
+- Updated Bootstrap version used in example project.
+- Added more documentation.
+- Removed unecessary code.
+
+0.3 (2014-09-19)
+----------------
+
+- Renamed AbstractArticleModel to MininewsModel.
+- Renamed viewable() to live().
+- Renamed all the views.
+- Renamed admin class.
+- All articles should be viewable in list views to staff users.
+- Added a 'staff_preview' property.
+- Tidied up the example_project.
+- Started on the documentation.
+
+
+0.2 (2014-09-05)
+----------------
+
+- Strip out the SEO fields and model - they belong in their own, separate, application.
